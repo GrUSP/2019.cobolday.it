@@ -1,0 +1,21 @@
+<div class="limit">
+
+  {% for workshop in site.data.workshops.list %}
+    {% if page.url contains workshop.slug %}
+      {% include workshop/program.html workshop=workshop %}
+    {% else %}
+      {% continue %}
+    {% endif %}
+  {% endfor %}
+
+  <hr class="hr">
+
+  <div class="intro intro--no-height">
+    <h1 class="column__title"><a href="{{ site.data.tickets.url }}" class="link">Iscriviti ora</a> i posti sono limitati</h1>
+  </div>
+
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

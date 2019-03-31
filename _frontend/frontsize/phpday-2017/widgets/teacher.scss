@@ -1,0 +1,35 @@
+@include block ('teacher') {
+  align-items: center;
+  color: transparent;
+  display: flex;
+  text-decoration: underline;
+  transition: color 0.25s ease-out;
+
+  &:hover {
+    color: $color-link-workshop-decoration-hover;
+  }
+
+  @include element ('avatar') {
+    line-height: 0;
+  }
+
+  @include element ('picture') {
+    height: 110px;
+    width: 110px;
+  }
+
+  @include element ('contents') {
+    margin-left: s(2);
+  }
+
+  @include element ('name') {
+    color: initial;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  @include element ('bio') {
+    color: initial;
+    font-size: 14px;
+  }
+}

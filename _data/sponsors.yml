@@ -1,0 +1,71 @@
+# place images in:
+# img/sponsors/file.jpg
+# img/sponsors/guide.pdf
+
+pdf:
+call_for_sponsor: true
+
+main:
+  price: € 5,000
+  offer:
+    - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali, il talk dovrà essere preapprovato dagli organizzatori)
+    - Invio di una DEM alla mailing list
+    - Accesso alla lista dei partecipanti alla conferenza
+    - Banchetto principale 2m x 1m
+    - Posizionamento vostro roll-up in sala
+    - Logo sui roll-up dell'evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette...)
+    - Logo nelle comunicazioni pre-evento (mail, social)
+    - Logo sul sito
+    - 5 biglietti gratuiti
+    - 5 biglietti scontati del 50%
+  max: 1
+  list:
+
+platinum:
+  price: € 3,000
+  offer:
+    - Banchetto 1m x 1m
+    - Posizionamento vostro roll-up in sala
+    - Logo sui roll-up dell'evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Logo nelle comunicazioni pre-evento (mail, social)
+    - Logo sul sito
+    - 3 biglietti gratuiti
+    - 5 biglietti scontati del 15%
+  max: 4
+  list:
+
+gold:
+  price: € 1,500
+  offer:
+    - Posizionamento vostro roll-up in sala
+    - Logo sui roll-up dell'evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Logo nelle comunicazioni pre-evento (mail, social)
+    - Logo sul sito
+    - 2 biglietti gratuiti
+    - 3 biglietti scontati del 15%
+  max: 8
+  list:
+
+silver:
+  price: € 750
+  offer:
+    - Logo sui roll-up dell'evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Logo nelle comunicazioni pre-evento (mail, social)
+    - Logo sul sito
+    - 1 biglietto gratuito
+    - 3 biglietti scontati del 10%
+  max: 16
+  list:
+
+bronze:
+  price: € 500
+  offer:
+    - Logo nelle comunicazioni pre-evento (mail, social)
+    - Logo sul sito
+    - 2 biglietti scontati del 10%
+  max: 32
+  list:

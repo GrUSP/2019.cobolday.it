@@ -1,0 +1,26 @@
+<a href="/workshop/{{ workshop.slug }}.html" class="workshop">
+  <div class="workshop__title">
+    {{ workshop.title }}
+  </div>
+  <div class="workshop__intro">
+    {{ workshop.intro }}
+  </div>
+  <div class="workshop__teacher">
+    <a href="{{ workshop.teacher.link }}" class="teacher">
+      <div class="teacher__avatar">
+        <img src="/img/teachers/{{ workshop.teacher.picture }}" class="teacher__picture">
+      </div>
+      <div class="teacher__contents">
+        <div class="teacher__name">
+          {{ workshop.teacher.name }}
+        </div>
+        <div class="teacher__bio">
+          {{ workshop.teacher.bio }}
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="workshop__go">
+    <a href="/workshop/{{ workshop.slug }}.html" class="button button--register">Leggi di più</a>
+  </div>
+</a>

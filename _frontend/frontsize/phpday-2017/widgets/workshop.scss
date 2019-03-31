@@ -1,0 +1,30 @@
+@include block ('workshop') {
+  color: transparent;
+  display: block;
+  text-decoration: underline;
+  transition: color 0.25s ease-out;
+
+  &:hover {
+    color: $color-link-workshop-decoration-hover;
+  }
+
+  @include element ('title') {
+    color: initial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  @include element ('intro') {
+    color: initial;
+    margin-top: s(2);
+  }
+
+  @include element ('go') {
+    margin-top: s(2);
+  }
+
+  @include element ('teacher') {
+    margin-top: s(2);
+  }
+}

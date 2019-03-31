@@ -1,0 +1,23 @@
+name: COBOLday
+utm_source: cobolday
+og_image: http://2019.cobolday.it/img/confs/cobolday/header_cobolday.png
+og_description: Una giornata interamente dedicata a Cobol. 8 sessioni tecniche presentate da professionisti che usano Cobol ogni giorno.
+slug: cobolday
+url: https://2019.cobolday.it
+where_when: Verona, 19-20 settembre 2019
+year: 2019
+since: 2019
+talks_available: false
+schedule_available: false
+workshop_available: false
+
+iubenda:
+  cookiePolicyId: 29098106
+  siteId: 1078163
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: symfonyday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-KHW8B72

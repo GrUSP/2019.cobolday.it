@@ -1,0 +1,9 @@
+@include block ('link') {
+  color: $color-link;
+  text-decoration-color: $color-link-decoration;
+  transition: text-decoration-color 0.25s ease-out;
+
+  &:hover {
+    text-decoration-color: $color-link-decoration-hover;
+  }
+}

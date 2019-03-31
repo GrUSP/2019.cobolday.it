@@ -1,0 +1,30 @@
+{
+  "name": "cobolday",
+  "version": "0.0.1",
+  "description": "Conference site",
+  "main": "index.js",
+  "devDependencies": {
+    "dustman": "github:grusp/dustman",
+    "frontsize": "github:ideatosrl/frontsize#372f2a6",
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cp ./node_modules/dustman/gulpfile.js .",
+    "dev": "./node_modules/.bin/gulp -S --config dustman-cobolday.yml watch & jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrUSP/2019.cobolday.it.git"
+  },
+  "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrUSP/2019.cobolday.it/issues"
+  },
+  "homepage": "https://github.com/GrUSP/2019.cobolday.it#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "moment": "^2.24.0"
+  }
+}
